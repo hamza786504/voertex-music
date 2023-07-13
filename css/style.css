@@ -16,7 +16,11 @@
   }
   
   .header__logo img {
-    height: 80px;
+    max-height: 80px;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    padding-right: 20px;
   }
   
   .menu-toggle {
@@ -105,7 +109,7 @@
     }
   
     .close-icon {
-      font-size: 42px;
+      font-size: 36px;
       display: none;
     }
   
