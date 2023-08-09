@@ -10,6 +10,13 @@
     --orange: #eaac11;
     --orange-opacity: #eaad1177;
   }
+  body{
+    background: linear-gradient(rgba(0, 0, 0 , 0.5) , rgba(0, 0, 0 , 0.8)) , url('../images/banner-image.jpeg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
   .header {
     background-color: #1e1e1e;
     display: flex;
@@ -86,19 +93,15 @@
 
 
   .banner{
-    background: linear-gradient(rgba(0, 0, 0 , 0.5) , rgba(0, 0, 0 , 0.8)) , url('../images/banner-image.jpeg');
-    background-size: cover;
-    background-repeat: no-repeat;
     min-height: 80vh;
   }
   .banner {
-    background-color: #000;
     color: #fff;
     padding: 100px 0;
   }
   
   .banner h1 {
-    font-size: 40px;
+    font-size: 2.3rem;
     font-weight: bold;
     margin-bottom: 20px;
   }
@@ -119,13 +122,9 @@
   .text-primary{
     color: var(--orange) !important;
   }
-  .banner h1{
-    font-size: 5rem;
-  }
   .banner p{
-    font-size: 1.4rem;
-    max-width: 35vw;
-    margin: 40px auto;
+    font-size: 0.9rem;
+    margin: 40px 30px;
   }
 
 
@@ -325,6 +324,12 @@
 .footer-dark ul a:hover {
   opacity:0.8;
 }
+.refund_banner{
+  background-color: #eaac11;
+  width: 100%;
+  min-height: 300px;
+  margin: auto;
+}
 
 @media (max-width:767px) {
   .footer-dark .item:not(.social) {
@@ -350,6 +355,7 @@
 
 .footer-dark .item.social {
   text-align:center;
+  margin: 30px auto 0;
 }
 
 @media (max-width:991px) {
@@ -387,6 +393,20 @@
 
 
 
+@media (min-width: 400px) {
+  .banner h1 {
+    font-size: 60px !important;
+  }
+}
+
+@media (min-width:767px) {
+  .banner h1 {
+    font-size: 80px !important;
+  }
+  .banner p{
+    font-size: 1rem
+  };
+}
 
 
 
