@@ -315,7 +315,7 @@
   margin-bottom:0;
 }
 
-.footer-dark ul a {
+.footer-dark a {
   color:inherit;
   text-decoration:none;
   opacity:0.6;
@@ -329,6 +329,14 @@
   width: 100%;
   min-height: 300px;
   margin: auto;
+}
+.price-box{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.price-features{
+  flex-grow: 1;
 }
 
 @media (max-width:767px) {
